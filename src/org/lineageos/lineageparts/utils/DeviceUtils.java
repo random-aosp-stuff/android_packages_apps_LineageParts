@@ -50,6 +50,11 @@ public class DeviceUtils {
                 org.lineageos.platform.internal.R.bool.config_haveNotch);
     }
 
+    public static boolean hasDotNotch(Context context) {
+        return context.getResources().getBoolean(
+                org.lineageos.platform.internal.R.bool.config_haveDotNotch);
+    }
+
     public static int getDeviceKeys(Context context) {
         return context.getResources().getInteger(
                 org.lineageos.platform.internal.R.integer.config_deviceHardwareKeys);
